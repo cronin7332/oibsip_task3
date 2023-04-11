@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.main {
+    max-width: 600px;
+    margin: 10% auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.main h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #6fb4ce;
+}
+
+.main input[type="number"],
+.main select {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.main input[type="number"]:focus,
+.main select:focus {
+    outline: none;
+    border-color: #6fb4ce;
+}
+
+.main input[type="number"]::placeholder,
+.main select option:first-child {
+    color: #999;
+}
+
+.main #val2 {
+    font-weight: bold;
+    color: #6fb4ce;
+    margin-top: 20px;
+}
+
+.main .bts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.main .btn {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #6fb4ce;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.main .btn:disabled {
+    background-color: #ccc;
+    cursor: default;
+}
+
+.main .btn:hover:not(:disabled) {
+    background-color: #4f93a7;
+}
